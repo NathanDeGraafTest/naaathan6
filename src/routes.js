@@ -8,5 +8,5 @@ module.exports = router;
 
 // Example endpoint
 router.get('/', function (req, res) {
-  res.send('Hello Nathan');
+  res.sendFile(__dirname + '/index.html');
 });
